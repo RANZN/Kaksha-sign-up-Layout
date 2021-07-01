@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/normalStyle"
+        android:background="@color/xy"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/wStyle"
+            android:padding="@dimen/dp_20"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            style="@style/normalStyle"
+            android:layout_gravity="center"
+            android:text="Create Account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_20"
+
+            />
+    </LinearLayout>
+
+    <EditText
+        style="@style/editStyle"
+        android:hint="xyz@gamil.com"
+        android:textColorHint="@color/teal_700" />
+
+
+    <EditText
+        style="@style/editStyle"
+        android:hint="@string/prakash_ranjan"
+        android:textColorHint="@color/teal_700" />
+
+    <EditText
+        style="@style/editStyle"
+        android:hint="Password"
+        android:textColorHint="@color/teal_700" />
+
+    <TextView
+        style="@style/normalStyle"
+        android:gravity="center"
+        android:text="USE PHONE NUMBER"
+        android:textColor="@color/xy"
+        android:textStyle="bold" />
+
+    <Button
+        style="@style/editStyle"
+        android:background="@drawable/bg"
+        android:color="@color/xy"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        style="@style/normalStyle"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:gravity="center"
+        android:text="or"
+        android:textStyle="bold" />
+
+    <Button
+        style="@style/buttonStyle"
+        android:background="@drawable/bg_facebook"
+        android:drawableLeft="@drawable/ic_ion_logo_facebook"
+        android:text="@string/continue_with_facebook"
+        android:textColor="@color/white" />
+
+    <Button
+        style="@style/buttonStyle"
+        android:background="@drawable/bg_google"
+        android:drawableLeft="@drawable/ic_flat_color_icons_google"
+        android:padding="@dimen/dp_20"
+        android:text="@string/sign_up_with_google"
+        android:textColor="@color/black" />
+</LinearLayout>
